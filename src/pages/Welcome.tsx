@@ -10,6 +10,7 @@ import {
     SafeAreaView,
     Dimensions
 } from 'react-native';
+import { useNavigation } from '@react-navigation/core';
 
 import colors from '../styles/colors';
 import fonts from '../styles/fonts';
@@ -20,6 +21,11 @@ import { Feather } from '@expo/vector-icons';
 import watering from '../../assets/watering.png';
 
 export function Welcome() {
+    const navigation = useNavigation()
+
+    function handleStart() {
+        navigation.navigate('UserIdentification');
+    }
 
     return (
         <SafeAreaView style={styles.container}>
@@ -42,6 +48,7 @@ export function Welcome() {
                 </Text>
 
                 <TouchableOpacity 
+                    onPress={handleStart}
                     style={styles.button}
                     >
                     <Feather 
