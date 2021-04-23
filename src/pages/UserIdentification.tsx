@@ -30,9 +30,18 @@ export function UserIdentification() {
         if (!name)
             return Alert.alert(`Me diz como chamar você 😢`);
 
-        await AsyncStorage.setItem('@plantmanager:user', name);
-
-        navigation.navigate('Confirmation');
+        try{
+            await AsyncStorage.setItem('@plantmanager:user', name);
+            navigation.navigate('Confirmation', {
+                title: 'Prontinho',
+                subTitle: 'Agora vamos começar a cuisar das suas plantinhas com muito cuidado.',
+                buttonTitle: 'Começar',
+                icon: 'smile',
+                nextScreen: 'PlantSelect',
+            });
+        }catch {
+            Alert.alert(`Me diz como chamar você 😢`);
+        }
     }
 
     function handleInputBlur() {
