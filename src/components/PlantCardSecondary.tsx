@@ -37,23 +37,6 @@ export const PlantCardSecondary = ({ data, handleRemove, ...rest } : PlantProps)
                     </View>
                 </Animated.View>
             )}
-            // renderRightActions={() => (
-            //     <Animated.View>
-            //         <View>
-            //             <RectButton
-            //                 style={styles.buttonRemove}
-            //                 onPress={handleRemove}
-            //             >
-            //                 <Feather 
-            //                     name="trash"
-            //                     size={32}
-            //                     color={colors.white}
-            //                 />
-
-            //             </RectButton>
-            //         </View>
-            //     </Animated.View>
-            // )}
         >
             <RectButton
                 style={styles.container}
