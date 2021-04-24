@@ -26,7 +26,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🤔 Informações
 
-Ao final de mais uma semana incrivel de NLW,nessa quinta criamos um app muito legal, e ao decorrer dessa construção conseguimos aprender varias coisas como gerenciamento de estado no react native, personalizar loadings de tela com Lottie, componentização, subir uma fake api com o json-server trabalhamos com async storage, datePicker para android e ios, também utilizamos o expo notification para trabalhar com agendamentos de notificações.
+Ao final de mais uma semana incrível de NLW,nessa quinta criamos um app muito legal, e ao decorrer dessa construção conseguimos aprender varias coisas como gerenciamento de estado no react native, personalizar loadings de tela com Lottie, componentização, subir uma fake api com o json-server trabalhamos com async storage, datePicker para android e ios, também utilizamos o expo notification para trabalhar com agendamentos de notificações.
 
 ## 🖼 Layout
 <p align="center">
